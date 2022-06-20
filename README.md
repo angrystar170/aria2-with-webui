@@ -1,12 +1,9 @@
-# 此项目无限期停止维护。NO LONGER SUPPORT。
-
-Pleases Fork this project and modify for yourself.
-
 ---
 
 Aria2 with webui
 ---
-Only 29Mb.  
+Only 29Mb.  Inspired by XUJINKAI.
+
 Edit config file out of the image.  
 Move file completed to another folder.  
 (Tasks that contains more than one files will not be moved.)  
@@ -22,13 +19,13 @@ sudo docker run -d \
 -v /DOWNLOAD_DIR:/data \
 -v /CONFIG_DIR:/conf \
 -e SECRET=YOUR_SECRET_CODE \
-xujinkai/aria2-with-webui
+angrystar170/aria2-with-webui
 ```
   
 II. Open `http://serverip:6880/` for aria2-webui, open `http://serverip:6888/` to browse data folder.  
 
 ### Build:  
-`sudo docker build -f Dockerfile -t xujinkai/aria2-with-webui .`  
+`sudo docker build -f Dockerfile -t <Your Account>/aria2-with-webui .`  
 
 ### Link:  
 https://github.com/aria2/aria2  
